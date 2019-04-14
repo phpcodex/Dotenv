@@ -1,0 +1,21 @@
+{
+    "name": "phpcodex/dotenv",
+    "description": "An Environment Variable system",
+    "keywords": ["php", "dotenv"],
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^5.0 || ^6.0 || ^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpcodex\\Dotenv\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
